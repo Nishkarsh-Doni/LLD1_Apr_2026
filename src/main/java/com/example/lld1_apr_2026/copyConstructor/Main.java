@@ -12,6 +12,5 @@ public class Main {
 
         System.out.println(s1.getAddress().getCity()); // Ahmedabad
         System.out.println(s2.getAddress().getCity()); // Delhi
-
     }
 }

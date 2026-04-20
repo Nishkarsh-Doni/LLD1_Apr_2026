@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64bd40ba-4342-42f0-ba83-f16bd1b0c73d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/copyConstructor/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/copyConstructor/DeepCopyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/copyConstructor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/copyConstructor/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/copyConstructor/StudentShallow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/class_basics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/class_basics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/class_basics/lab_book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/class_basics/lab_book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/class_basics/lab_book/LibraryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/class_basics/lab_book/LibraryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/encapsulation/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/encapsulation/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/encapsulation/BankAccountDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/encapsulation/BankAccountDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/copyConstructor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/copyConstructor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/copyConstructor/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/copyConstructor/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +138,7 @@
       <workItem from="1775836364812" duration="7581000" />
       <workItem from="1776017751262" duration="462000" />
       <workItem from="1776021611779" duration="8383000" />
-      <workItem from="1776268524837" duration="11918000" />
+      <workItem from="1776268524837" duration="14040000" />
     </task>
     <servers />
   </component>
