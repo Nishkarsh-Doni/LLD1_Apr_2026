@@ -23,6 +23,7 @@ public class Student {
 
     // DEEP Copy Constructor
     public Student(Student other) {
+
         this.name = other.name; // s2.name = s1.name
         this.age = other.age; // s2.age = s1.age
         this.psp = other.psp;

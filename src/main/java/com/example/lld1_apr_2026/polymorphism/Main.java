@@ -29,6 +29,10 @@ public class Main {
                 "priya@gmail.com"
         );
 
+        User user5 = new User();
+
+        user1.getRole();
+
         NotificationService service = new NotificationService();
         service.sendWelcomeEmail(user1);
         service.sendWelcomeEmail(user2);

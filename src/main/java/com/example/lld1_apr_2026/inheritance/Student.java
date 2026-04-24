@@ -7,17 +7,24 @@ public class Student extends User { // Student is extended version of User
     private int assignmentsCompleted;
     private double psp;
 
-    public Student(String username) {
-        super();
+    public Student(String id, String username, String email) {
+
+        super(id, username, email);
+        System.out.println("DEBUG");
+
     }
 
-    public Student(String id, String username, String email, String batchId) {
-        // Constructor chaining
-        super(username, email); //constructor of the parent
-        this.batchId = batchId;
-        this.assignmentsCompleted = 0;
-        this.psp = 0.0;
-    }
+//    public Student(String username) {
+//        super();
+//    }
+//
+//    public Student(String id, String username, String email, String batchId) {
+//        // Constructor chaining
+//        super(username, email); //constructor of the parent
+//        this.batchId = batchId;
+//        this.assignmentsCompleted = 0;
+//        this.psp = 0.0;
+//    }
 
     // ADDITIONAL Behaviours specific to this Student
     public void submitAssignment() {

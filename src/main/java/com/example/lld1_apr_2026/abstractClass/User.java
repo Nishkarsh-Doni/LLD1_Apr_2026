@@ -1,15 +1,18 @@
-package com.example.lld1_apr_2026.polymorphism;
+package com.example.lld1_apr_2026.abstractClass;
 
-public class User {
+public abstract class User {
     // Common attributes for ALL users
     private String id;
     private String username;
     private String email;
     private String password;
 
-    public String getRole() { // getRole()
-        return "USER";
-    }
+    // Abstract methods
+    // Child classes must implement this method
+    public abstract String getRole();
+
+    // Another abstract method
+    public abstract void performDailyTask();
 
     public User() {
 

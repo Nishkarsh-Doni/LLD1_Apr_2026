@@ -1,11 +1,18 @@
-   package com.example.lld1_apr_2026.polymorphism;
+package com.example.lld1_apr_2026.abstractClass;
 
-   // Student is a specific type of User
+
+// Student is a specific type of User
 public class Student extends User { // Student is extended version of User
     // Additional attributes for the specific student
     private String batchId;
     private int assignmentsCompleted;
     private double psp;
+
+    public static int studentCount;
+
+    public static void printClassName() {
+        System.out.println("Student");
+    }
 
     public Student(String username) {
         super();
@@ -35,5 +42,10 @@ public class Student extends User { // Student is extended version of User
 
     public String getRole() { // getRole()
         return "STUDENT";
+    }
+
+    @Override
+    public void performDailyTask() {
+        System.out.println("Attending lectures and completing assignments");
     }
 }

@@ -5,8 +5,7 @@ public class Main {
         // Create a student
         Student sanchit = new Student("S001",
                 "sanchit_dev",
-                "sanchit@scaler.com",
-                "B2026"
+                "sanchit@scaler.com"
         );
 
         sanchit.logout();
