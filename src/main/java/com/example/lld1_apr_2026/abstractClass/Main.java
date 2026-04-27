@@ -13,8 +13,8 @@ public class Main {
 
         List<User> users = List.of(student);
         
-        Student.printClassName();
-        int studentCount = Student.studentCount;
+//        Student.printClassName();
+//        Student.studentCount
 
 
     }
