@@ -6,7 +6,9 @@ import java.util.concurrent.Executors;
 public class Client {
     public static void main(String[] args) {
         // Create a fixed thread pool
-        ExecutorService executorService = Executors.newFixedThreadPool(5);
+//        ExecutorService executorService = Executors.newFixedThreadPool(5);
+
+        ExecutorService executorService = Executors.newCachedThreadPool();
 
         // create 100 threads and each thread prints a different number
         for (int i = 1; i <= 100; i++) {
@@ -20,5 +22,7 @@ public class Client {
 //            Thread t = new Thread(numberPrinter);
 //            t.start();
         }
+
+        executorService.shutdown();
     }
 }

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64bd40ba-4342-42f0-ba83-f16bd1b0c73d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/concurrency/executorService/NumberPrinter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/concurrency/executorService/NumberPrinter/NumberPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/concurrency/NumberPrinter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/concurrency/NumberPrinter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/concurrency/executorService/NumberPrinter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/concurrency/executorService/NumberPrinter/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,7 @@
       <workItem from="1775836364812" duration="7581000" />
       <workItem from="1776017751262" duration="462000" />
       <workItem from="1776021611779" duration="8383000" />
-      <workItem from="1776268524837" duration="39106000" />
+      <workItem from="1776268524837" duration="41165000" />
     </task>
     <servers />
   </component>
@@ -188,8 +187,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/concurrency/executorService/NumberPrinter/Client.java</url>
-          <line>13</line>
+          <line>15</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-21.0.6/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Executors.java</url>
+          <line>448</line>
+          <properties class="java.util.concurrent.Executors" method="callable">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

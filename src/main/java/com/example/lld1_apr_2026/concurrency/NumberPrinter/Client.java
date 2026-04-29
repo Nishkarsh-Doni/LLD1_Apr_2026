@@ -5,9 +5,9 @@ public class Client {
         System.out.println("Main function is executing in " + Thread.currentThread().getName());
 
         // create 100 threads and each thread prints a different number
-        NumberPrinter numberPrinter = new NumberPrinter();
+
         for (int i = 1; i <= 100; i++) {
-            numberPrinter.setNumberToPrint(i);
+            NumberPrinter numberPrinter = new NumberPrinter(i);
             Thread t = new Thread(numberPrinter);
             t.start();
         }
