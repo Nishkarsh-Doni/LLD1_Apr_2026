@@ -1,4 +1,4 @@
-package com.example.lld1_apr_2026.concurrency.HelloWorldPrinter;
+package com.example.lld1_apr_2026.concurrency.introToThreads.HelloWorldPrinter;
 
 public class Main {
     public static void main(String[] args) {

@@ -16,7 +16,7 @@ public class Client {
                 System.out.println();
             }
             NumberPrinter numberPrinter = new NumberPrinter(i);
-            executorService.execute(numberPrinter);
+            executorService.submit(numberPrinter);
 
 //            OLD WAY
 //            Thread t = new Thread(numberPrinter);

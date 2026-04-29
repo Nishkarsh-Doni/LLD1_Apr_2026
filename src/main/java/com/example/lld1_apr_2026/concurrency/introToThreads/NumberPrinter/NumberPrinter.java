@@ -1,4 +1,4 @@
-package com.example.lld1_apr_2026.concurrency.NumberPrinter;
+package com.example.lld1_apr_2026.concurrency.introToThreads.NumberPrinter;
 
 public class NumberPrinter implements Runnable {
     private int numberToPrint;
