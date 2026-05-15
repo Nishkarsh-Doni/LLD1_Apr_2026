@@ -30,12 +30,14 @@ public class ExceptionDemoThrow {
             // If thrown, execution jumps immediately to the matching catch statement
             // Remaining lines in the try block are skipped
             find(5); // Throws FileNotFoundException
+            find(3);
+            find(2);
+            find(7); // Throws a class not found exception
 
             // If find throws an exception all lines after that are skipped in try
             in.close();
             System.out.println("Inside try block");
-        }
-        catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) {
             System.out.println("File is not found! Please check if the file exists.");
             System.out.println("Details: " + e.getMessage());
         } catch (NullPointerException e) {

@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64bd40ba-4342-42f0-ba83-f16bd1b0c73d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/easycode/codebase-v2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/exceptionHandling/ExceptionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/exceptionHandling/ExceptionDemoThrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/exceptions/DuplicateItemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/exceptions/InvalidQuantityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/models/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/models/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/models/Clothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/models/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/models/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/lambdas/LambdaClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/lambdas/ListComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/lambdas/TraditionalClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/streams/FilterByEvenPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/streams/StreamsClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/generics/BoundedTypes/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/generics/BoundedTypes/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/exceptionHandling/ExceptionDemoThrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/exceptionHandling/ExceptionDemoThrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/exceptions/DuplicateItemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/exceptions/DuplicateItemException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +168,7 @@
       <workItem from="1776268524837" duration="62870000" />
       <workItem from="1778255839163" duration="21000" />
       <workItem from="1778255870649" duration="8031000" />
-      <workItem from="1778405471676" duration="22421000" />
+      <workItem from="1778405471676" duration="23513000" />
     </task>
     <servers />
   </component>

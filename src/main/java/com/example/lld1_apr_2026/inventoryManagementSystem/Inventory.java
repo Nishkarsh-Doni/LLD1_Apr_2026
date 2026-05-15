@@ -16,7 +16,7 @@ public class Inventory<T extends Item> {
         items = new HashMap<>();
     }
 
-    public void add(T item) throws InvalidQuantityException {
+    public void add(T item) throws InvalidQuantityException, DuplicateItemException {
         if (item.getQuantity() < 0) {
             throw new InvalidQuantityException(
                     "Invalid quantity " + item.getQuantity() + " for item: " + item.getName()
