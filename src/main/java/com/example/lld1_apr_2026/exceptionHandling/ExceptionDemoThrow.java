@@ -55,6 +55,6 @@ public class ExceptionDemoThrow {
         }
 
         // No code is going to execute
-        System.out.println("Not executed");
+        System.out.println("EOF");
     }
 }

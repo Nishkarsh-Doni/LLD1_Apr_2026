@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64bd40ba-4342-42f0-ba83-f16bd1b0c73d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/StreamAPITasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/exceptionHandling/ExceptionDemoThrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/exceptionHandling/ExceptionDemoThrow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/exceptions/DuplicateItemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lld1_apr_2026/inventoryManagementSystem/exceptions/DuplicateItemException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,19 +79,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ExceptionDemoThrow">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.lld1_apr_2026.inventoryManagementSystem.models.Client" />
-      <module name="LLD1_Apr_2026" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.lld1_apr_2026.inventoryManagementSystem.models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.lld1_apr_2026.exceptionHandling.ExceptionDemo" />
       <module name="LLD1_Apr_2026" />
@@ -131,6 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamAPITasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.lld1_apr_2026.inventoryManagementSystem.StreamAPITasks" />
+      <module name="LLD1_Apr_2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.lld1_apr_2026.inventoryManagementSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.lld1_apr_2026.streams.StreamsClient" />
       <module name="LLD1_Apr_2026" />
@@ -147,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ExceptionDemoThrow" />
+        <item itemvalue="Application.StreamAPITasks" />
         <item itemvalue="Application.ExceptionDemo" />
         <item itemvalue="Application.StreamsClient" />
         <item itemvalue="Application.LambdaClient" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,7 @@
       <workItem from="1776268524837" duration="62870000" />
       <workItem from="1778255839163" duration="21000" />
       <workItem from="1778255870649" duration="8031000" />
-      <workItem from="1778405471676" duration="23513000" />
+      <workItem from="1778405471676" duration="27095000" />
     </task>
     <servers />
   </component>

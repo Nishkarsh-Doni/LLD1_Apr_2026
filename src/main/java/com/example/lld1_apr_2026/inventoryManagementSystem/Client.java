@@ -7,6 +7,9 @@ import com.example.lld1_apr_2026.inventoryManagementSystem.models.Clothing;
 import com.example.lld1_apr_2026.inventoryManagementSystem.models.Electronics;
 import com.example.lld1_apr_2026.inventoryManagementSystem.models.Item;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Client {
 
     public static void main(String[] args) throws InvalidQuantityException {
@@ -20,6 +23,11 @@ public class Client {
             System.out.println("Invalid quantity or deuplicate item: " + e.getMessage());
         }
 
+
+
+
+
+
         // This won't compile — type safety in action!
         // bookStore.add(new Electronics("E1", "iPhone", 79999.0, 3, 12));
 
@@ -27,9 +35,9 @@ public class Client {
         System.out.println(book);         // Clean Code by Robert Martin (₹599.0, qty: 10)
 
         // Mixed inventory — any Item subtype allowed
-        Inventory<Item> generalStore = new Inventory<>();
-        generalStore.add(new Book("B3", "Head First Java", 399.0, 8, "Kathy Sierra"));
-        generalStore.add(new Clothing("C1", "Levi's Jeans", 2499.0, 20, "M"));
-        generalStore.add(new Electronics("E1", "AirPods", 9999.0, 15, 12));
+//        Inventory<Item> generalStore = new Inventory<>();
+//        generalStore.add(new Book("B3", "Head First Java", 399.0, 8, "Kathy Sierra"));
+//        generalStore.add(new Clothing("C1", "Levi's Jeans", 2499.0, 20, "M"));
+//        generalStore.add(new Electronics("E1", "AirPods", 9999.0, 15, 12));
     }
 }
