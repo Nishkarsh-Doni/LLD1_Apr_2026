@@ -11,4 +11,11 @@ public class Clothing extends Item {
     public String getSize() {
         return size;
     }
+
+    @Override
+    public String toString() {
+        return getName() + " [Size: " + size + "] (₹" + getPrice() + ", qty: " + getQuantity() + ")";
+    }
+
+
 }

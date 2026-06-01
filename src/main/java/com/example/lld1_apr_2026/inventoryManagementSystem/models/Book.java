@@ -11,4 +11,10 @@ public class Book extends Item {
     public String getAuthor() {
         return author;
     }
+
+    @Override
+    public String toString() {
+        return getName() + " by " + author + " (₹" + getPrice() + ", qty: " + getQuantity() + ")";
+    }
+
 }

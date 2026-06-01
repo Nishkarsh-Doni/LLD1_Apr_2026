@@ -10,4 +10,10 @@ public class Electronics extends Item {
     public int getWarranty() {
         return warranty;
     }
+
+    @Override
+    public String toString() {
+        return getName() + " [Warranty: " + warranty + " months] (₹" + getPrice() + ", qty: " + getQuantity() + ")";
+    }
+
 }

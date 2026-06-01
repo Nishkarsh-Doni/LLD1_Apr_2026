@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Inventory<T extends Item> {
+public class Inventory<T extends Item>{
 
     private HashMap<String, T> items;
 
@@ -42,4 +42,28 @@ public class Inventory<T extends Item> {
     public List<T> getAll() {
         return new ArrayList<>(items.values());
     }
+
+    public List<T> sortByName() {
+        return items.values().stream()
+                .sorted((a,b) -> a.getName().compareToIgnoreCase(b.getName()))
+                .toList();
+    }
+    public List<T> sortByQuantity() {
+        return items.values().stream()
+                .sorted((a,b) -> Integer.compare(b.getQuantity(),a.getQuantity()))
+                .toList();
+    }
+
+    public List<T> filterByPriceRange(double startPrice, double endPrice) {
+        return items.values().stream()
+                .filter(t-> t.getPrice()>=startPrice && t.getPrice()<=endPrice)
+                .toList();
+    }
+
+    public List<T> filterByAvailability() {
+        return items.values().stream()
+                .filter(t -> t.getQuantity() > 0)
+                .toList();
+    }
+
 }
